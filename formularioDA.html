@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/site.js"></script>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<table class="table">
+    <tr>
+        <th id="ccel1"><img src="imagenesE/logoSena.png" width="150" height="150"/></th>
+        <th id="ccel2" colspan="2"><h1>Mi Formulario</h1></th>
+        <th id="ccel3"><img src="imagenesE/avataaars.png" width="150" height="150"/></th>
+    </tr>
+    <tr>
+        <td colspan="4">
+    <form>
+            <fieldset>
+            <legend><h2>Datos del aprendiz</h2><br></legend>
+            <h3>Nombres: <input type="Nombre" name="Nombre" placeholder="P.E: Daniela Alexandra" size="70"></h3>
+            <h3>Apellidos: <input type="Nombre" name="Nombre" placeholder="P.E: Ardila Viasus" size="70"></h3>
+            <br>
+            </fieldset>
+            <fieldset>
+            <legend><h3>Género</h3></legend>
+                <p class="selec">
+                    <input type="radio" name="Género" value="Femenino"/><label for="Femenino">Femenino</label><br>
+                    <input type="radio" name="Género" value="Masculino"/><label for="Masculino">Masculino</label><br>
+                    <input type="radio" name="Género" value="Otro"/><label for="Otro">Otro</label><br>
+            </fieldset>
+                </p>
+                <br>
+            <fieldset>
+                <legend><h3>Nivel Académico</h3></legend>
+            <p class="selec">
+                <fieldset id="estudios">
+                    <input type="checkbox" name="Bachiller" value="Bachiller" id="Bachiller"/><label for="Bachiller">Bachiller</label><br>
+                    <input type="checkbox" name="Técnico" value="Técnico" id="Técnico"/><label for="Técnico">Técnico</label><br>
+                    <input type="checkbox" name="Tecnólogo" value="Tecnólogo" id="Tecnólogo"/><label for="Tecnólogo">Tecnólogo</label><br>
+                    <input type="checkbox" name="Universitario" value="Universitario" id="Universitario"/><label for="Universitario">Universitario</label><br>
+                </fieldset>
+                    <input type="checkbox" name="No_estudio" value="No_estudio" id="No_estudio"/><label for="No_estudio">No estudió</label><br>
+                
+                </p>
+            </fieldset>
+         
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2812.057650358429!2d-74.07189655459582!3d4.620824899460413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99840d0a4567%3A0x62d7f1db74dea68c!2siglesia%20menonita!5e0!3m2!1ses-419!2sco!4v1683754387783!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td>
+    </tr>
+    <tr>
+        <td><button>Crear</button></td>
+        <td><button>Buscar</button></td>
+        <td><button>Modificar</button></td>
+        <td><button>Borrar</button></td>
+    </form> 
+    </tr>
+</table>
+</body>
+</html>
